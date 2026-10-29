@@ -2,20 +2,28 @@
 <html lang="uk">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TS Практика</title>
-    <script src="index.js" defer></script>
 </head>
 <body>
+    <!-- Селект для вибору кольору сторінки -->
     <select id="colorSelect">
+        <option value="coral">Кораловий</option>
         <option value="lightblue">Блакитний</option>
         <option value="lightgreen">Світло-зелений</option>
-        <option value="lightcoral">Кораловий</option>
     </select>
-    
-    <input type="text" id="hobbyInput" value="марафонський біг" placeholder="Ваше хобі">
-    <input type="number" id="expInput" value="6" placeholder="Років досвіду">
-    
+
+    <!-- Поля вводу для хобі та досвіду (завдання 5) -->
+    <input type="text" id="hobbyInput" placeholder="Введіть хобі (напр. фотографія)">
+    <input type="number" id="expInput" placeholder="Років досвіду">
+
+    <!-- Кнопка для запуску скрипта -->
     <button id="runBtn">Запустити</button>
+
+    <!-- Порожній блок для виведення результату -->
     <div id="output"></div>
+
+    <!-- Підключення зкомпільованого файлу -->
+    <script src="index.js"></script>
 </body>
 </html>
